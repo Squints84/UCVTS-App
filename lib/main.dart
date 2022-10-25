@@ -9,7 +9,7 @@ import 'panel.dart';
 void main() => runApp(const MyApp());
 
 PanelController _pc = PanelController();
-Slidey slide = Slidey();
+Slidey slide = Slidey(); // test dawg
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -72,25 +72,23 @@ class MyHomePage extends StatelessWidget {
                               children: <TextSpan>[
                             TextSpan(text: '^ The above message is '),
                             TextSpan(
-                                text: 'TRUE',
-                                style: TextStyle(
-                                    color: Color(0xff00ff08),
-                                    fontWeight: FontWeight.bold)),
+                              text: 'TRUE',
+                              style: TextStyle(
+                                color: Color(0xff00ff08),
+                                fontWeight: FontWeight.bold)),
                             TextSpan(text: '!!!')
                           ]))));
                     },
                   )
                 ]),
             bottomNavigationBar: Container(
-                color: const Color(0xff2196f3),
-                child: TabBar(onTap: (int i) => _pc.close(), tabs: const [
-                  Tab(icon: Icon(CustomIcons.ait)),
-                  Tab(icon: Icon(CustomIcons.theaterMasks)),
-                  Tab(
-                      icon: Icon(Icons
-                          .assignment_late)), // *person in desk but person is just a silhoutte*
-                  Tab(icon: Icon(Icons.photo_library))
-                ])),
+							color: const Color(0xff2196f3),
+							child: TabBar(onTap: (int i) => _pc.close(), tabs: const [
+								Tab(icon: Icon(CustomIcons.ait)),
+								Tab(icon: Icon(CustomIcons.theaterMasks)),
+								Tab(icon: Icon(Icons.assignment_late)), // *person in desk but person is just a silhoutte*
+								Tab(icon: Icon(Icons.photo_library))
+							])),
             body: Stack(children: <Widget>[
               TabBarView(children: [
                 // The displays of the different tabs, in order (VERY IMPORTANT)
@@ -98,12 +96,10 @@ class MyHomePage extends StatelessWidget {
                 Image.asset('assets/Dole.jpg', alignment: Alignment.center),
                 ExtraStuff.trueCenterAlign([
                   const Icon(CustomIcons.ucvts),
-                  Text(
-                      "${DateTime.now().year.toString()}-${DateTime.now().month.toString()}-${DateTime.now().day.toString()}")
+                  Text("${DateTime.now().year.toString()}-${DateTime.now().month.toString()}-${DateTime.now().day.toString()}")
                 ]),
                 ExtraStuff.trueCenterAlign([
-                  Text(
-                      'tabBar Height = 29\n\nOG Panel Height = ${screenHeight * 0.8}\n vs.\nError Height = ${22 + (Slidey.buttonHeight * 4) + 40}')
+                  Text('tabBar Height = 29\n\nOG Panel Height = ${screenHeight * 0.8}\n vs.\nError Height = ${22 + (Slidey.buttonHeight * 4) + 40}')
                 ])
               ], physics: const NeverScrollableScrollPhysics()),
               SlidingUpPanel(
