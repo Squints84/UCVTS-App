@@ -140,6 +140,12 @@
       "languageVersion": "2.15"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
       "packageUri": "lib/",
@@ -308,6 +314,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "syncfusion_flutter_calendar",
+      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_calendar-20.3.50",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_core",
+      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_core-20.3.50",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "syncfusion_flutter_datepicker",
+      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/syncfusion_flutter_datepicker-20.3.50",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "synchronized",
       "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/synchronized-3.0.0+3",
       "packageUri": "lib/",
@@ -322,6 +346,12 @@
     {
       "name": "test_api",
       "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/test_api-0.4.12",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "timezone",
+      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/timezone-0.9.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -392,30 +422,6 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "webview_flutter",
-      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-3.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "webview_flutter_android",
-      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_android-2.10.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "webview_flutter_platform_interface",
-      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_platform_interface-1.9.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "webview_flutter_wkwebview",
-      "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter_wkwebview-2.9.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "win32",
       "rootUri": "file:///Users/ColeG/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/win32-3.0.1",
       "packageUri": "lib/",
@@ -446,7 +452,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-10-24T15:02:27.851567Z",
+  "generated": "2022-10-25T22:52:33.094967Z",
   "generator": "pub",
   "generatorVersion": "2.18.2"
 }
