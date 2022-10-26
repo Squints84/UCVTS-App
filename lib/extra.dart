@@ -26,7 +26,7 @@ class ExtraStuff {
     ]
   ); // WE LOVE AIT (A widget to commemorate our love)
 
-  static Widget trueCenterAlign(List<Widget> widg) {
+  static Widget centerAlign(List<Widget> widg) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,

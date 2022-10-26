@@ -116,13 +116,13 @@ class _MyHomePageState extends State<MyHomePage> {
         body: Stack(children: <Widget>[
           TabBarView(physics: const NeverScrollableScrollPhysics(),children: [
             // The displays of the different tabs, in order (VERY IMPORTANT)
-            ExtraStuff.trueCenterAlign([ExtraStuff.weLoveAIT,]), 
+            ExtraStuff.centerAlign([ExtraStuff.weLoveAIT,]), 
             _calendarTab(), //comment like this
-            ExtraStuff.trueCenterAlign([
+            ExtraStuff.centerAlign([
               const Icon(CustomIcons.ucvts),
               Text("${DateTime.now().year.toString()}-${DateTime.now().month.toString()}-${DateTime.now().day.toString()}\n\nUCVTS Logo")
             ]),
-            ExtraStuff.trueCenterAlign([
+            ExtraStuff.centerAlign([
               Text('tabBar Height = 29\n\nOG Panel Height = ${screenHeight * 0.8}\n vs.\nError Height = ${(29 + 22 + (Slidey.buttonHeight * 4) + 40)}'),
               const Text("\n\nClone is working and up to date (please)"),
               const SizedBox(height: 30),
@@ -152,5 +152,5 @@ class _MyHomePageState extends State<MyHomePage> {
 //  resulted in Alex being unable to access the Slidey)
 
 Widget _calendarTab(){
-  return const Text("I LOVE CALENDARS");
+  return ExtraStuff.centerAlign([const Text("I LOVE CALENDARS")]);
 }
