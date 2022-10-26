@@ -124,7 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ]),
             ExtraStuff.trueCenterAlign([
               Text('tabBar Height = 29\n\nOG Panel Height = ${screenHeight * 0.8}\n vs.\nError Height = ${(29 + 22 + (Slidey.buttonHeight * 4) + 40)}'),
-              const Text("\n\nLogo is working (please)"),
+              const Text("\n\nClone is working and up to date (please)"),
               const SizedBox(height: 30),
               Image.asset('assets/Dole.jpg', alignment: Alignment.center)
             ])
